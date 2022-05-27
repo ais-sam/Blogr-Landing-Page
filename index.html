@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="./css/all.min.css">
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- CSS FILE -->
+  <link rel="stylesheet" href="./css/style.css">
+
+  <title>Frontend Mentor | [Blogr]</title>
+
+  <style>
+   
+  </style>
+</head>
+<body>
+  <!-- START HEADER -->
+  <header class="pt-5 pb-5">
+    <nav class="navbar navbar-expand-lg navbar-light ">
+      <div class="container">
+        <a class="navbar-brand me-5" href="#"><img src="./images/logo.svg" alt=""></a>
+        <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="nav-burger">
+          </span>
+        </button>
+          <div class="nav__links d-flex justify-content-between w-100 flex-lg-row flex-column position-relative">
+            <ul class="navbar-nav d-flex align-items-center d-none d-lg-flex">
+              <li class="nav-item me-3 nav__link">
+                <a   aria-current="page" href="#">Product 
+                  <img src="./images/icon-arrow-light.svg" alt=""></a>
+                  <ul class="nav__submenu sub__product">
+                    <li><a href="#">Overview</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Marketplace</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Integrations</a></li>
+                  </ul>
+              </li>
+              <li class="nav-item me-3 nav__link">
+                <a  href="#">Company
+                  <img src="./images/icon-arrow-light.svg" alt=""></a>
+                  <ul class="nav__submenu">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Team</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Careers</a></li>
+                  </ul>
+              </li>
+              <li class="nav-item me-3 nav__link">
+                <a href="#">Connect
+                  <img src="./images/icon-arrow-light.svg" alt=""></a>
+                  <ul class="nav__submenu ">
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Newsletter</a></li>
+                    <li><a href="#">LinkedIn</a></li>
+                  </ul>
+              </li>
+              
+            </ul>
+            <ul class="navbar-nav d-flex align-items-center d-none d-lg-flex">
+              <a class=" me-5 text-white " href="#">login</a>
+              <a class=" nav__btn" href="#">Sign Up</a>
+            </ul>
+            <!-- mobile menu -->
+            <ul class=" nav__mobile bg-white position-absolute">
+               <ul class="mobile__links"> 
+                <li class="nav-item  nav__link mt-2  "><a class="nav__mobile-link ms-2" href="#">Product <img src="./images/icon-arrow-dark.svg" alt="arrow"></a>
+                    
+                      <ul class=" sub_m lh-lg mt-2 ">
+                        <li><a href="#">Overview</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Marketplace</a></li>
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">Integrations</a></li>
+                      </ul>
+                </li>
+                <li class="nav-item  nav__link mt-2">
+                  <a class="nav__mobile-link ms-2"  href="#">Company <img src="./images/icon-arrow-dark.svg" alt="arrow"></a>
+                      <ul class="sub_m lh-lg mt-2">
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Team</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Careers</a></li>
+                      </ul>
+                </li>
+                <li class="nav-item nav__link mt-2">
+                  <a class="nav__mobile-link ms-2" href="#">Connect<img class="ms-1" src="./images/icon-arrow-dark.svg" alt="arrow"></a>
+                      <ul class=" sub_m lh-lg mt-2">
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Newsletter</a></li>
+                        <li><a href="#">LinkedIn</a></li>
+                      </ul>  
+                </li>
+              </ul> 
+              <ul class="mobile__btns mt-4 ">
+                <span></span>
+                <a class=" w-100" href="#">login</a>
+                <a class=" nav__btn-mobile w-20 mt-2" href="#">Sign Up</a>
+              </ul>
+            </ul>
+             
+          </div>
+      </div>
+    </nav>
+    
+  </header>
+  <!-- END HEADER -->
+  <!-- START MAIN -->
+  <main>
+    <!-- START HERO -->
+    <section class="hero pt-5   text-center d-flex align-items-center justify-content-center">
+      
+        <div class="container pt-5 pb-5">
+          <div class="hero__content pt-5 pb-5" data-aos="fade-in">
+            <h1 class="hero__title text-white mt-5 ">A modern publishing platform</h1>
+            <p class="mt-3 mb-5 text-white fs-5">  Grow your audience and build your online brand</p>
+            <div class="hero__btns d-flex  justify-content-center  ">
+              <a href="#" class="hero__btn main__btn me-5 ">Start for Free</a>
+              <a href="#" class="hero__btn secondary__btn ">Learn More</a>
+            </div>
+            
+          </div>
+          
+        </div>
+        <div class="hero__bg">
+        </div>
+      
+    </section>
+    <!-- END HERO -->
+    <!-- START ABOUT-->
+    <section class="about  ">
+      <div class="container  ">
+        <h2 class="about__title text-center  mb-1 fs-1 position-relative">Designed for the future</h2>
+        <div class="about__content  row d-flex align-items-center position-relative">
+          <div class="about__text col-md-12 col-lg-6 mt-5 pt-5 text-center text-lg-start">
+            <div class="about__feat">
+              <h3 class="about__feat-title pb-3 ">Introducing an extensible editor</h3>
+              <p class="about__desc pe-lg-3">Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content. 
+                The editor supports management of multiple blogs and allows easy manipulation of embeds such as images, 
+                videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or 
+                change the looks of a blog.</p>
+            </div>
+            <div class="about__feat mt-5 pb-5">
+              <h3 class="pb-3 about__feat-title">Robust content management</h3>
+              <p class="about__desc">Flexible content management enables users to easily move through posts. Increase the usability of your blog 
+                by adding customized categories, sections, format, or flow. With this functionality, you’re in full control.</p>
+            </div>
+          </div> 
+          <div class="col-md-12 col-lg-6 position-relative" data-aos="fade-in" >
+            <img class="about__img d-md-block d-none " src="./images/illustration-editor-desktop.svg" alt=""  >
+            <img class="about__img-mobile d-md-none" src="./images/illustration-editor-mobile.svg" alt=""  >
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END ABOUT -->
+    <!-- START INFRA -->
+    <section class="infra">
+      <div class="infra-bg">
+        <div class="container">
+            <div class="infra__content row d-flex justify-content-end  align-items-center ">
+              <div class="infra__img col-12 col-lg-6" data-aos="fade-in">
+                <img src="./images/illustration-phones.png" alt="phones" >
+              </div>
+              <div class="infra__text col-12 col-lg-6  text-white ps-lg-3 mt-5 mt-sm-0">
+                <h2 class="infra__title mb-4 text-center text-lg-start">State of the Art Infrastructure</h2>
+                <p class=" infra__desc lh-lg pe-lg-4 text-center text-lg-start">With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity. 
+                  This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.</p>
+              </div>
+            </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- END INFRA -->
+    <!-- START FEATURES -->
+    <section class="features ">
+      <div class="container position-relative pt-5 pb-5">
+        <div class="row d-flex align-items-center ">
+          <div class="col-lg-6 col-md-12 ">
+            <img class="feat__img d-md-block d-none " src="./images/illustration-laptop-desktop.svg" alt="" data-aos="fade-in">
+            <img class="feat__img d-md-none" src="./images/illustration-laptop-desktop.svg" alt="" data-aos="fade-in">
+          </div>
+          <div class="feat__text col-lg-6 col-md-12 text-center text-md-start ">
+            <div class="feat mb-5">
+              <h3 class="mb-3">Free, open, simple</h3>
+              <p class="mb-4 ">Blogr is a free and open source application backed by a large community of helpful developers. It supports 
+                features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting tools, 
+                and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn.</p>
+            </div>
+            <div class="feat mt-5">
+              <h3 class="mb-3">Powerful tooling</h3>
+              <p>Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment a breeze, but
+                capable of producing even the most complicated sites.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END FEATURES -->
+  </main>
+  <!-- END MAIN -->
+  <!-- START FOOTER -->
+  <footer class="pt-5 pb-5">
+    <div class="container">
+      <div class="row text-center text-md-start">
+        <div class="footer__logo col-lg-3 col-md-6 col-sm-12 mb-4 mb-md-0">
+          <img src="./images/logo.svg" alt="">
+        </div>
+        <ul class="col-lg-3 col-md-6 col-sm-12">
+          <h6 class="pb-3 text-white mt-4 mt-md-0"> Product</h6>
+          <li class="mb-2"><a href="#">Overview</a></li>
+          <li class="mb-2"><a href="#">Pricing</a></li>
+          <li class="mb-2"><a href="#">Marketplace</a></li>
+          <li class="mb-2"><a href="#">Features</a></li>
+          <li><a href="#">integration</a></li>
+        </ul>
+        <ul class="col-lg-3 col-md-6 col-sm-12">
+          <h6 class="pb-3 text-white mt-4 mt-md-0"> Company</h6>
+          <li class="mb-2"><a href="#">About</a></li>
+          <li class="mb-2"><a href="#">Team</a></li>
+          <li class="mb-2"><a href="#">Blog</a></li>
+          <li><a href="#">Careers</a></li>
+        </ul>
+        <ul class="col-lg-3 col-md-6 col-sm-12">
+          <h6 class="pb-3 text-white mt-4 mt-md-0">Connect</h6>
+          <li class="mb-2 "><a href="#">Contact</a></li>
+          <li class="mb-2"><a href="#">Newsletter</a></li>
+          <li><a href="#">LinkedIn</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://www.frontendmentor.io/profile/ais-sam" target="_blank">ais-sam</a>.
+    </div> 
+  </footer>
+  <!-- END FOOTER -->
+  
+
+  <!-- Bootstrap JS -->
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <!-- Font Awesome JS -->
+  <script src="./js/all.min.js"></script>
+  <!-- AOS js-->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <!-- JS Script -->
+  <script src="./js/script.js"></script>
+</body>
+</html>
